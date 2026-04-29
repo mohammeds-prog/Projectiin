@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Production Totals",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "k97_WQBHpUK8xDtgZQjBxA",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/k97_WQBHpUK8xDtgZQjBxA",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-01T21:13:54.0766658Z",
+  "Updated": "2026-04-01T21:13:54.0766658Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

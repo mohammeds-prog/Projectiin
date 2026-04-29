@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bgnxiZ2Bt0y7Kb4qAV0iIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="824, 341, 72, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='                                                1 m                    ' parentid='topBarCenterDateNav' tag='BUTTON' type='' class='leftButton noLoader btn withText' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='1 m' /&gt;" Guid="a8de43db-8401-41d5-8c22-40aac80d4dfa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Calendar' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="747, 341, 67, 26" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Today' type='' parentid='topBarCenterDateNav' tag='BUTTON' class='btn noLoader todayButton' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Today' /&gt;" Guid="c0498cfc-b9c3-44a9-874f-e164b09b3093" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="43574452dd6a58f71c81d07456aa6e2a.jpg" xmlns="">0wyI3TlsxkkqPMgWiAPyS2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

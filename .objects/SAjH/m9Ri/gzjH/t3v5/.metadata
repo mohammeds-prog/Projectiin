@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Today",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "t3v5OxoYBkmOrOlgHDesCQ",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/t3v5OxoYBkmOrOlgHDesCQ",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-08T15:08:31.45279Z",
+  "Updated": "2026-04-08T15:08:31.45279Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

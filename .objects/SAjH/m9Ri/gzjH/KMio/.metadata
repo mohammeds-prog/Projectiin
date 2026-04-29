@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Apply Filtering",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "KMioYqlcJEeSkmN6xzyhXw",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/KMioYqlcJEeSkmN6xzyhXw",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-01T21:19:55.5524721Z",
+  "Updated": "2026-04-01T21:19:55.5524721Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

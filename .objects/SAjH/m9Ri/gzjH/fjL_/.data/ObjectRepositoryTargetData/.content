@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_EOo8otZ0UG7tr3jb35rIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="1100, 358, 260, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='   LT-Dentique Lemont   TSP Master ' class='locationNavigationLink' parentid='mainNavigationBar' tag='A' /&gt;" Guid="f9da1790-b31d-472c-adba-f39ae172fd21" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Calendar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="922881dfe99ce397556449806282aa83.jpg" xmlns="">0slo2u3lovU-tqEcLemaIIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "VVD3-Valley View Dental…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mQk2YASZDk-xBkDkCg0WiA",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/mQk2YASZDk-xBkDkCg0WiA",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-02T16:39:24.0428219Z",
+  "Updated": "2026-04-02T16:39:24.0428219Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

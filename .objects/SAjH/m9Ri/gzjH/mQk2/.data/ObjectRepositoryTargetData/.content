@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CY-KVKL6NkewMSi1aHv0vQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="1100, 475, 260, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='   VVD3-Valley View Dental Montgomery   TSP Master ' class='locationNavigationLink' parentid='mainNavigationBar' tag='A' /&gt;" Guid="8fa76f7c-63e8-45be-bf5d-134d6bff46a8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Calendar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5664c5ffdaa34876f5d576b68257a6f.jpg" xmlns="">0d4oaIB3yTk2M2J-J_JnKvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

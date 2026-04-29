@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Actual Net(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "l_sVUgUoHkefBK1N7t_w_w",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/l_sVUgUoHkefBK1N7t_w_w",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-28T16:49:44.4818543Z",
+  "Updated": "2026-04-28T16:49:44.4818543Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

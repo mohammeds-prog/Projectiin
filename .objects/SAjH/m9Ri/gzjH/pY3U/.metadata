@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DG-Dentique Downers Gro…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pY3UmsEDFkyfeh5J3YSYhg",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/pY3UmsEDFkyfeh5J3YSYhg",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-02T16:38:13.0129554Z",
+  "Updated": "2026-04-02T16:38:13.0129554Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

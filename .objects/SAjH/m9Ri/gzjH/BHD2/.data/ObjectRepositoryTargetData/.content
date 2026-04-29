@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AlVVPyVhtkqos588G-pQ0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="1191, 198, 150, 31" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='currentLocationNameContainer' parentid='mainNavigationBar' tag='SPAN' /&gt;" Guid="2cd1ffe8-a70c-4245-8cdd-8a523479fed9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3bc75d149b2a70fb16bf1d9d8452ca6a.jpg" xmlns="">0AMR2lpnY-k-0vG6-PTzybg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

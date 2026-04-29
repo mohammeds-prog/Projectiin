@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fRXXVXKaEk6HVuxxEtutTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="1106, 728, 170, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='ui-id-205' tag='DIV' type='' class='future-scheduled-net-totals amountCell' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="ad3f7798-2cce-4110-9e94-4baefaf31cce" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Calendar' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="766, 728, 170, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Totals' parentid='ui-id-205' tag='DIV' type='' class='totals-label amountCell' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Totals' /&gt;" Guid="c782642f-135d-4d75-a47c-04d4cdd9981e" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="1108, 406, 170, 15" FuzzySelectorArgument="&lt;webctrl type='' class='future-scheduled-net-header amountCell' parentid='ui-id-205' tag='DIV' aaname='Future Scheduled Net                              ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Future Scheduled Net' /&gt;" Guid="3d8b6b9f-1ba5-473a-930a-9b80653337b7" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="938, 406, 170, 15" FuzzySelectorArgument="&lt;webctrl type='' class='scheduled-net-header amountCell' parentid='ui-id-205' tag='DIV' aaname='Scheduled Net                              ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Scheduled Net' /&gt;" Guid="de0a2b3f-21ed-49df-8f82-8be3893c86c0" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="68b2f9b968588d142cad8e943241909f.jpg" xmlns="">0yFnGcuwNhUCUQ_H7R2se2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

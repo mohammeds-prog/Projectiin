@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Dentrix Ascend - Calendar",
+  "Type": "App",
+  "Id": "SAjHozreDU-MwomJx9r6eg",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/SAjHozreDU-MwomJx9r6eg",
+  "Created": "2026-04-01T21:13:29.4223139Z",
+  "Updated": "2026-04-01T21:13:29.4223139Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

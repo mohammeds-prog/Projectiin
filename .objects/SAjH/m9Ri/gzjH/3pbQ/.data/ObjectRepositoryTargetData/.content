@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="StDcZZZloUSmdQuAltvEGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" CVScreenId="9c77d3d9-c025-4015-b03a-5d647b932015" CvElementArea="966, 294, 71, 29" CvTextArea="982, 301, 39, 13" CvTextArgument="Month" CvType="Button" DesignTimeRectangle="967, 296, 70, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='btn' parentid='ui-id-67' tag='BUTTON' /&gt;" Guid="2374c2fb-7a69-4116-9aec-95be5e4cd420" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Calendar' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="899, 296, 70, 26" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='ui-id-67' tag='BUTTON' type='' class='btn active' aaname='Week' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Week' /&gt;" Guid="2afad9da-8e6c-4cb9-9b09-fcb23e4ba572" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f59d77207aaea96515484d4463ccda22.jpg" xmlns="">0aGNIEfaHM0WXxf6h22oCfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

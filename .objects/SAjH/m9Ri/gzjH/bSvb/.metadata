@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Future Scheduled Net(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "bSvbjrtVqkGQh-89rZhyaw",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/bSvbjrtVqkGQh-89rZhyaw",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-08T15:12:01.8549163Z",
+  "Updated": "2026-04-08T15:12:01.8549163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

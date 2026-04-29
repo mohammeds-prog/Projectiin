@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Alora Dental Spa TSP Ma…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Bq0Cv7bpZ0yvO0jqxdd3Fw",
+  "Reference": "nabDTv5kuk6YM-XqJhPJmg/Bq0Cv7bpZ0yvO0jqxdd3Fw",
+  "ParentRef": "nabDTv5kuk6YM-XqJhPJmg/gzjH6RkiwUWUoxxzumM3YQ",
+  "Created": "2026-04-02T16:37:52.8316524Z",
+  "Updated": "2026-04-02T16:37:52.8316524Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
