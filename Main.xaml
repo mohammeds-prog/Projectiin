@@ -281,7 +281,7 @@
       <AssemblyReference>Microsoft.CodeAnalysis.VisualBasic</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1281,18239" sap2010:WorkflowViewState.IdRef="Sequence_178">
+  <Sequence sap:VirtualizedContainerService.HintSize="1281,17636" sap2010:WorkflowViewState.IdRef="Sequence_178">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filter" />
       <Variable x:TypeArguments="x:String" Name="montactual" />
@@ -319,8 +319,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap:VirtualizedContainerService.HintSize="522,79" sap2010:WorkflowViewState.IdRef="ManualTrigger_38" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Dentrix Ascend - Calendar" sap:VirtualizedContainerService.HintSize="522,12067" sap2010:WorkflowViewState.IdRef="NApplicationCard_30" InteractionMode="DebuggerApi" ScopeGuid="8640a596-eeaa-4e52-b9dc-358519556e21" Version="V2">
+    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap:VirtualizedContainerService.HintSize="452,79" sap2010:WorkflowViewState.IdRef="ManualTrigger_38" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Dentrix Ascend - Calendar" sap:VirtualizedContainerService.HintSize="452,12067" sap2010:WorkflowViewState.IdRef="NApplicationCard_30" InteractionMode="DebuggerApi" ScopeGuid="8640a596-eeaa-4e52-b9dc-358519556e21" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -3697,47 +3697,14 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,201" sap2010:WorkflowViewState.IdRef="CommentOut_29">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_179">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,201" sap2010:WorkflowViewState.IdRef="CommentOut_27">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_176">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,201" sap2010:WorkflowViewState.IdRef="CommentOut_28">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_177">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="522,175" sap2010:WorkflowViewState.IdRef="LogMessage_94">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_94">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="&quot;[Before Filter]&quot; &amp; Environment.NewLine &amp; &quot;ALora   → Future: &quot; &amp; alorafuture &amp; &quot; | Actual: &quot; &amp; aloraactual &amp; Environment.NewLine &amp; &quot;Downers → Future: &quot; &amp; downersfuture &amp; &quot; | Actual: &quot; &amp; downersactual &amp; Environment.NewLine &amp; &quot;Lemont  → Future: &quot; &amp; lemontfuture &amp; &quot; | Actual: &quot; &amp; lemontactual &amp; Environment.NewLine &amp; &quot;Romeo   → Future: &quot; &amp; romfuture &amp; &quot; | Actual: &quot; &amp; romactual &amp; Environment.NewLine &amp; &quot;Naper   → Future: &quot; &amp; napfuture &amp; &quot; | Actual: &quot; &amp; napactual &amp; Environment.NewLine &amp; &quot;Mont    → Future: &quot; &amp; montfuture &amp; &quot; | Actual: &quot; &amp; montactual" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <ui:InvokeCode ContinueOnError="{x:Null}" Code="alorafuture = CLng(Math.Round(CDbl(alorafuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;aloraactual = CLng(Math.Round(CDbl(aloraactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;downersfuture = CLng(Math.Round(CDbl(downersfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;downersactual = CLng(Math.Round(CDbl(downersactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;lemontfuture = CLng(Math.Round(CDbl(lemontfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;lemontactual = CLng(Math.Round(CDbl(lemontactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;romfuture = CLng(Math.Round(CDbl(romfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;romactual = CLng(Math.Round(CDbl(romactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;napfuture = CLng(Math.Round(CDbl(napfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;napactual = CLng(Math.Round(CDbl(napactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;montfuture = CLng(Math.Round(CDbl(montfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;montactual = CLng(Math.Round(CDbl(montactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="522,197" sap2010:WorkflowViewState.IdRef="InvokeCode_57">
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="alorafuture = CLng(Math.Round(CDbl(alorafuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;aloraactual = CLng(Math.Round(CDbl(aloraactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;downersfuture = CLng(Math.Round(CDbl(downersfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;downersactual = CLng(Math.Round(CDbl(downersactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;lemontfuture = CLng(Math.Round(CDbl(lemontfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;lemontactual = CLng(Math.Round(CDbl(lemontactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;romfuture = CLng(Math.Round(CDbl(romfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;romactual = CLng(Math.Round(CDbl(romactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;napfuture = CLng(Math.Round(CDbl(napfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;napactual = CLng(Math.Round(CDbl(napactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;montfuture = CLng(Math.Round(CDbl(montfuture.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString&#xA;montactual = CLng(Math.Round(CDbl(montactual.Trim().Split(New String(){&quot; &quot;}, StringSplitOptions.RemoveEmptyEntries).Last().Replace(&quot;$&quot;,&quot;&quot;).Replace(&quot;,&quot;,&quot;&quot;).Replace(&quot;(&quot;,&quot;&quot;).Replace(&quot;)&quot;,&quot;&quot;)) / 1000)).ToString" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="452,197" sap2010:WorkflowViewState.IdRef="InvokeCode_57">
       <ui:InvokeCode.Arguments>
         <InOutArgument x:TypeArguments="x:String" x:Key="aloraactual">
           <VisualBasicReference x:TypeArguments="x:String" ExpressionText="aloraactual" sap2010:WorkflowViewState.IdRef="VisualBasicReference`1_2" />
@@ -3777,14 +3744,14 @@
         </InOutArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="522,175" sap2010:WorkflowViewState.IdRef="LogMessage_95">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_95">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="&quot;[After Filter]&quot; &amp; Environment.NewLine &amp; &quot;ALora   → Future: &quot; &amp; alorafuture &amp; &quot; | Actual: &quot; &amp; aloraactual &amp; Environment.NewLine &amp; &quot;Downers → Future: &quot; &amp; downersfuture &amp; &quot; | Actual: &quot; &amp; downersactual &amp; Environment.NewLine &amp; &quot;Lemont  → Future: &quot; &amp; lemontfuture &amp; &quot; | Actual: &quot; &amp; lemontactual &amp; Environment.NewLine &amp; &quot;Romeo   → Future: &quot; &amp; romfuture &amp; &quot; | Actual: &quot; &amp; romactual &amp; Environment.NewLine &amp; &quot;Naper   → Future: &quot; &amp; napfuture &amp; &quot; | Actual: &quot; &amp; napactual &amp; Environment.NewLine &amp; &quot;Mont    → Future: &quot; &amp; montfuture &amp; &quot; | Actual: &quot; &amp; montactual" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_2" />
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ColumnNames="{x:Array Type=x:String}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" RangeInformation="{x:Null}" RangeMetadata="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Read Column A" sap:VirtualizedContainerService.HintSize="522,290" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="UrlOrId" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+    <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ColumnNames="{x:Array Type=x:String}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" RangeInformation="{x:Null}" RangeMetadata="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Read Column A" sap:VirtualizedContainerService.HintSize="452,290" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="UrlOrId" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
       <uga:ReadRangeConnections.FileIdBackup>
         <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID1" StoredValue="UrlOrId">
           <usau:BackupSlot.BackupValues>
@@ -3832,7 +3799,7 @@
         </OutArgument>
       </uga:ReadRangeConnections.Result>
     </uga:ReadRangeConnections>
-    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim curMonth As Integer = DateTime.Now.Month&#xA;Dim curYear As Integer = DateTime.Now.Year&#xA;Dim prevYear As Integer = curYear - 1&#xA;&#xA;' Column mapping: each month = 4 columns (1st, 15th, last, blank)&#xA;Dim halfMonth As Integer = If(curMonth &lt;= 6, curMonth, curMonth - 6)&#xA;Dim futColIdx As Integer = (halfMonth - 1) * 4 + 2&#xA;&#xA;' Previous month last day&#xA;Dim prevMonth As Integer = If(curMonth = 1, 12, curMonth - 1)&#xA;Dim prevHalfMonth As Integer = If(prevMonth &lt;= 6, prevMonth, prevMonth - 6)&#xA;Dim actColIdx As Integer = (prevHalfMonth - 1) * 4 + 4&#xA;&#xA;' Convert to column letters&#xA;Dim res As String = &quot;&quot;&#xA;Dim n As Integer = futColIdx&#xA;While n &gt; 0&#xA;    Dim remainder As Integer = (n - 1) Mod 26&#xA;    res = Chr(65 + remainder) &amp; res&#xA;    n = (n - remainder - 1) \ 26&#xA;End While&#xA;futureCol = res&#xA;&#xA;res = &quot;&quot;&#xA;n = actColIdx&#xA;While n &gt; 0&#xA;    Dim remainder As Integer = (n - 1) Mod 26&#xA;    res = Chr(65 + remainder) &amp; res&#xA;    n = (n - remainder - 1) \ 26&#xA;End While&#xA;actualCol = res&#xA;&#xA;' Determine which year to search for Actual rows&#xA;' January = prevYear (Dec 31), all other months = curYear&#xA;Dim actYear As Integer = If(curMonth = 1, prevYear, curYear)&#xA;&#xA;' Find VVD1 rows&#xA;Dim futSection As Integer = If(curMonth &lt;= 6, 1, 2)&#xA;Dim actSection As Integer = If(prevMonth &lt;= 6, 1, 2)&#xA;Dim actYearSection As Integer = If(curMonth = 1, 2, actSection)&#xA;Dim vvd1RowFuture As Integer = -1&#xA;Dim vvd1RowActual As Integer = -1&#xA;Dim foundCurYear As Boolean = False&#xA;Dim foundPrevYear As Boolean = False&#xA;Dim curCount As Integer = 0&#xA;Dim prevCount As Integer = 0&#xA;&#xA;For i As Integer = 0 To dtColA.Rows.Count - 1&#xA;    Dim v As String = If(IsDBNull(dtColA.Rows(i)(0)), &quot;&quot;, dtColA.Rows(i)(0).ToString().Trim())&#xA;    &#xA;    If v = curYear.ToString() Then&#xA;        foundCurYear = True&#xA;        foundPrevYear = False&#xA;        curCount = 0&#xA;    End If&#xA;    If v = prevYear.ToString() Then&#xA;        foundPrevYear = True&#xA;        foundCurYear = False&#xA;        prevCount = 0&#xA;    End If&#xA;    &#xA;    If foundCurYear AndAlso v = &quot;VVD1&quot; Then&#xA;        curCount += 1&#xA;        If curCount = futSection AndAlso vvd1RowFuture = -1 Then vvd1RowFuture = i + 1&#xA;        If actYear = curYear AndAlso curCount = actSection AndAlso vvd1RowActual = -1 Then vvd1RowActual = i + 1&#xA;    End If&#xA;    If foundPrevYear AndAlso v = &quot;VVD1&quot; Then&#xA;        prevCount += 1&#xA;        If actYear = prevYear AndAlso prevCount = actYearSection AndAlso vvd1RowActual = -1 Then vvd1RowActual = i + 1&#xA;    End If&#xA;    &#xA;    If vvd1RowFuture &gt; 0 AndAlso vvd1RowActual &gt; 0 Then Exit For&#xA;Next&#xA;&#xA;futVVD1 = vvd1RowFuture&#xA;futVVD2 = vvd1RowFuture + 1&#xA;futVVD3 = vvd1RowFuture + 2&#xA;futAlora = vvd1RowFuture + 3&#xA;futDenDG = vvd1RowFuture + 5&#xA;futDenLe = vvd1RowFuture + 6&#xA;&#xA;actVVD1 = vvd1RowActual&#xA;actVVD2 = vvd1RowActual + 1&#xA;actVVD3 = vvd1RowActual + 2&#xA;actAlora = vvd1RowActual + 3&#xA;actDenDG = vvd1RowActual + 5&#xA;actDenLe = vvd1RowActual + 6" DisplayName="Calculate Target Cells" sap:VirtualizedContainerService.HintSize="522,197" sap2010:WorkflowViewState.IdRef="InvokeCode_58">
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim curMonth As Integer = DateTime.Now.Month&#xA;Dim curYear As Integer = DateTime.Now.Year&#xA;Dim prevYear As Integer = curYear - 1&#xA;&#xA;' Column mapping: each month = 4 columns (1st, 15th, last, blank)&#xA;Dim halfMonth As Integer = If(curMonth &lt;= 6, curMonth, curMonth - 6)&#xA;Dim futColIdx As Integer = (halfMonth - 1) * 4 + 2&#xA;&#xA;' Previous month last day&#xA;Dim prevMonth As Integer = If(curMonth = 1, 12, curMonth - 1)&#xA;Dim prevHalfMonth As Integer = If(prevMonth &lt;= 6, prevMonth, prevMonth - 6)&#xA;Dim actColIdx As Integer = (prevHalfMonth - 1) * 4 + 4&#xA;&#xA;' Convert to column letters&#xA;Dim res As String = &quot;&quot;&#xA;Dim n As Integer = futColIdx&#xA;While n &gt; 0&#xA;    Dim remainder As Integer = (n - 1) Mod 26&#xA;    res = Chr(65 + remainder) &amp; res&#xA;    n = (n - remainder - 1) \ 26&#xA;End While&#xA;futureCol = res&#xA;&#xA;res = &quot;&quot;&#xA;n = actColIdx&#xA;While n &gt; 0&#xA;    Dim remainder As Integer = (n - 1) Mod 26&#xA;    res = Chr(65 + remainder) &amp; res&#xA;    n = (n - remainder - 1) \ 26&#xA;End While&#xA;actualCol = res&#xA;&#xA;' Determine which year to search for Actual rows&#xA;' January = prevYear (Dec 31), all other months = curYear&#xA;Dim actYear As Integer = If(curMonth = 1, prevYear, curYear)&#xA;&#xA;' Find VVD1 rows&#xA;Dim futSection As Integer = If(curMonth &lt;= 6, 1, 2)&#xA;Dim actSection As Integer = If(prevMonth &lt;= 6, 1, 2)&#xA;Dim actYearSection As Integer = If(curMonth = 1, 2, actSection)&#xA;Dim vvd1RowFuture As Integer = -1&#xA;Dim vvd1RowActual As Integer = -1&#xA;Dim foundCurYear As Boolean = False&#xA;Dim foundPrevYear As Boolean = False&#xA;Dim curCount As Integer = 0&#xA;Dim prevCount As Integer = 0&#xA;&#xA;For i As Integer = 0 To dtColA.Rows.Count - 1&#xA;    Dim v As String = If(IsDBNull(dtColA.Rows(i)(0)), &quot;&quot;, dtColA.Rows(i)(0).ToString().Trim())&#xA;    &#xA;    If v = curYear.ToString() Then&#xA;        foundCurYear = True&#xA;        foundPrevYear = False&#xA;        curCount = 0&#xA;    End If&#xA;    If v = prevYear.ToString() Then&#xA;        foundPrevYear = True&#xA;        foundCurYear = False&#xA;        prevCount = 0&#xA;    End If&#xA;    &#xA;    If foundCurYear AndAlso v = &quot;VVD1&quot; Then&#xA;        curCount += 1&#xA;        If curCount = futSection AndAlso vvd1RowFuture = -1 Then vvd1RowFuture = i + 1&#xA;        If actYear = curYear AndAlso curCount = actSection AndAlso vvd1RowActual = -1 Then vvd1RowActual = i + 1&#xA;    End If&#xA;    If foundPrevYear AndAlso v = &quot;VVD1&quot; Then&#xA;        prevCount += 1&#xA;        If actYear = prevYear AndAlso prevCount = actYearSection AndAlso vvd1RowActual = -1 Then vvd1RowActual = i + 1&#xA;    End If&#xA;    &#xA;    If vvd1RowFuture &gt; 0 AndAlso vvd1RowActual &gt; 0 Then Exit For&#xA;Next&#xA;&#xA;futVVD1 = vvd1RowFuture&#xA;futVVD2 = vvd1RowFuture + 1&#xA;futVVD3 = vvd1RowFuture + 2&#xA;futAlora = vvd1RowFuture + 3&#xA;futDenDG = vvd1RowFuture + 5&#xA;futDenLe = vvd1RowFuture + 6&#xA;&#xA;actVVD1 = vvd1RowActual&#xA;actVVD2 = vvd1RowActual + 1&#xA;actVVD3 = vvd1RowActual + 2&#xA;actAlora = vvd1RowActual + 3&#xA;actDenDG = vvd1RowActual + 5&#xA;actDenLe = vvd1RowActual + 6" DisplayName="Calculate Target Cells" sap:VirtualizedContainerService.HintSize="452,197" sap2010:WorkflowViewState.IdRef="InvokeCode_58">
       <ui:InvokeCode.Arguments>
         <OutArgument x:TypeArguments="x:Int32" x:Key="actAlora">
           <VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="actAlora" sap2010:WorkflowViewState.IdRef="VisualBasicReference`1_14" />
@@ -3881,7 +3848,7 @@
         </OutArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
-    <ui:LogMessage DisplayName="Log Target Cells" sap:VirtualizedContainerService.HintSize="522,175" sap2010:WorkflowViewState.IdRef="LogMessage_96">
+    <ui:LogMessage DisplayName="Log Target Cells" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_96">
       <ui:LogMessage.Level>
         <InArgument x:TypeArguments="ui:LogLevel">
           <Literal x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="Literal`1_21" Value="Info" />
@@ -3893,7 +3860,7 @@
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD1 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_255" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD1 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_255" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futVVD1.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_4" />
@@ -3936,7 +3903,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD2 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_256" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD2 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_256" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futVVD2.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_6" />
@@ -3979,7 +3946,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD3 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_257" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD3 Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_257" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futVVD3.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_8" />
@@ -4022,7 +3989,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Alora Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_258" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Alora Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_258" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futAlora.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_10" />
@@ -4065,7 +4032,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenDG Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_259" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenDG Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_259" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futDenDG.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_12" />
@@ -4108,7 +4075,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenLe Future" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_260" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenLe Future" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_260" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="futureCol &amp; futDenLe.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_14" />
@@ -4151,7 +4118,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD1 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_261" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD1 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_261" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actVVD1.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_16" />
@@ -4194,7 +4161,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD2 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="522,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_262" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD2 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_262" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actVVD2.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_18" />
@@ -4237,7 +4204,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD3 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="486,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_263" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write VVD3 Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_263" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actVVD3.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_20" />
@@ -4280,7 +4247,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Alora Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="486,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_264" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Alora Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_264" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actAlora.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_22" />
@@ -4323,7 +4290,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenDG Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="486,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_265" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenDG Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_265" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actDenDG.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_24" />
@@ -4366,7 +4333,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenLe Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="486,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_266" ItemSelectionMode="UrlOrId" UseConnectionService="True">
+    <uga:WriteCellConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write DenLe Actual" HideCell="False" sap:VirtualizedContainerService.HintSize="452,341" sap2010:WorkflowViewState.IdRef="WriteCellConnections_266" ItemSelectionMode="UrlOrId" UseConnectionService="True">
       <uga:WriteCellConnections.Cell>
         <InArgument x:TypeArguments="x:String">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="actualCol &amp; actDenLe.ToString()" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_26" />
@@ -4409,7 +4376,7 @@
         </InArgument>
       </uga:WriteCellConnections.WhatToWrite>
     </uga:WriteCellConnections>
-    <ui:LogMessage DisplayName="Write Complete" sap:VirtualizedContainerService.HintSize="486,166" sap2010:WorkflowViewState.IdRef="LogMessage_97">
+    <ui:LogMessage DisplayName="Write Complete" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_97">
       <ui:LogMessage.Level>
         <InArgument x:TypeArguments="ui:LogLevel">
           <Literal x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="Literal`1_46" Value="Info" />
